@@ -1,0 +1,73 @@
+{
+	"app": {
+		"APP_NAME": "ankurseth.in",
+		"APP_URL": "https://ankurseth.in"
+	},
+
+	"themes": ["resume"],
+
+	"navbar": [
+		{
+			"title": "Home",
+			"url": "https://ankurseth.in"
+		},
+		{
+			"title": "About",
+			"url": "https://ankurseth.in/about"
+		},
+		{
+			"title": "Contact",
+			"url": "https://ankurseth.in/contact"
+		},
+		{
+			"title": "GitHub",
+			"url": "https://github.com/madhumeya/ankurseth.in"
+		}
+	],
+
+	"info": [
+		{
+			"title": "Home",
+			"url": "https://ankurseth.in"
+		},
+		{
+			"title": "About",
+			"url": "https://ankurseth.in/about"
+		},
+		{
+			"title": "Terms",
+			"url": "https://ankurseth.in/terms"
+		},
+		{
+			"title": "Privacy",
+			"url": "https://ankurseth.in/privacy"
+		},
+		{
+			"title": "Contact",
+			"url": "https://ankurseth.in/contact"
+		}
+	],
+
+	"social": [
+		{
+			"title": "Facebook",
+			"url": "https://www.facebook.com/madhumeya"
+		},
+		{
+			"title": "GitHub",
+			"url": "https://github.com/madhumeya"
+		},
+		{
+			"title": "Instagram",
+			"url": "https://www.instagram.com/madhumeya/"
+		},
+		{
+			"title": "LinkedIn",
+			"url": "https://www.linkedin.com/in/madhumeya/"
+		},
+		{
+			"title": "Twitter",
+			"url": "https://twitter.com/madhumeya"
+		}
+	]
+}
