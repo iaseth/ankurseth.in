@@ -26,15 +26,17 @@ html(lang="en")
 								a(href=node.url).navbar= node.title
 			div.header
 				if page.IsPage() && page.Show("category")
-					div.category
-						- let category = page.Category()
-						p Posted in #[a(href=category.RelativeURL()).category= category.Title()]
+					- let category = page.Category()
+					if category
+						div.category
+							p Posted in #[a(href=category.RelativeURL()).category= category.Title()]
 				div.title
 					h1= page.Title()
 				if page.IsPage() && page.Show("author")
-					div.author
-						- let author = page.Author()
-						p Written by #[a(href=author.RelativeURL())= author.Title()]
+					- let author = page.Author()
+					if author
+						div.author
+							p Written by #[a(href=author.RelativeURL())= author.Title()]
 				if page.Show("description")
 					div.description
 						p= page.Description()
