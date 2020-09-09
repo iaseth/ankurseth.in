@@ -5,6 +5,7 @@
 
 [index]
 about
+portfolio
 contact
 privacy
 terms
