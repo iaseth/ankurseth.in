@@ -16,6 +16,10 @@ html(lang="en")
 
 		link(rel="stylesheet", href="x/dist/themes/resume/css/resume.css")
 
+		- let analytics = site.meta.json.analytics
+		if analytics != undefined
+			div !{site.GetDataFileContents(analytics)}
+
 	body
 		header
 			if page.Show("navbar")
