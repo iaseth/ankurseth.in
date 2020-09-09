@@ -12,7 +12,7 @@ html(lang="en")
 		if page.HasRelativeBase()
 			base(href=page.Base())
 		else
-			base(href=page.Site().meta.json.app.APP_URL)
+			base(href=page.Site().meta.json.meta.SITE_URL)
 
 		link(rel="stylesheet", href="x/dist/themes/resume/css/resume.css")
 
