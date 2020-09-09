@@ -5,7 +5,7 @@ quote: pencil
 ====================
 
 ul
-	each x in site.pages
+	each x in page.Site().pages
 		li
 			a(href=x.RelativeURL())= x.GetTitle()
 
