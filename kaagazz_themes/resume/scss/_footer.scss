@@ -1,4 +1,18 @@
 
+footer.zero {
+	background-color: #272727;
+	color: #fff;
+	padding: 40px 40px;
+	text-align: center;
+	& > div {
+		max-width: $max-width;
+		margin: auto;
+		& > p {
+			//
+		}
+	}
+}
+
 footer.one {
 	background-color: #616161;
 	color: #fff;

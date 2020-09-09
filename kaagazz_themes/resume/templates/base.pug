@@ -46,6 +46,12 @@ html(lang="en")
 			div
 				block content
 
+		- let quote = page.GetProperty("quote").value;
+		if quote
+			footer.zero
+				div
+					p= blackadder[quote]
+
 		footer.one
 			div.info
 				h4 More Information

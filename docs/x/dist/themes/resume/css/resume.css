@@ -378,6 +378,16 @@ article > div {
   padding-bottom: 200px;
 }
 
+footer.zero {
+  background-color: #272727;
+  color: #fff;
+  padding: 40px 40px;
+  text-align: center;
+}
+footer.zero > div {
+  max-width: 960px;
+  margin: auto;
+}
 footer.one {
   background-color: #616161;
   color: #fff;
