@@ -12,20 +12,20 @@ html(lang="en")
 		if page.HasRelativeBase()
 			base(href=page.Base())
 		else
-			base(href=site.meta.json.app.APP_URL)
+			base(href=page.Site().meta.json.app.APP_URL)
 
 		link(rel="stylesheet", href="x/dist/themes/resume/css/resume.css")
 
-		- let analytics = site.meta.json.analytics
+		- let analytics = page.Site().meta.json.analytics
 		if analytics != undefined
-			div !{site.GetDataFileContents(analytics)}
+			div !{page.Site().GetDataFileContents(analytics)}
 
 	body
 		header
 			if page.Show("navbar")
 				div.navbar
 					ul
-						each node in site.meta.json["navbar"]	
+						each node in page.Site().meta.json["navbar"]	
 							li
 								a(href=node.url).navbar= node.title
 			div.header
@@ -60,12 +60,12 @@ html(lang="en")
 			div.info
 				h4 More Information
 				ul
-					each node in site.meta.json["info"]
+					each node in page.Site().meta.json["info"]
 						+InfoLink(node)
 			div.social
 				h4 Social Media
 				ul
-					each node in site.meta.json["social"]
+					each node in page.Site().meta.json["social"]
 						+SocialLink(node)
 
 		footer.two
