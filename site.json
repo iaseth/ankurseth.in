@@ -16,12 +16,12 @@
 			"url": "https://ankurseth.in/about"
 		},
 		{
-			"title": "Contact",
-			"url": "https://ankurseth.in/contact"
+			"title": "Portfolio",
+			"url": "https://ankurseth.in/portfolio"
 		},
 		{
-			"title": "GitHub",
-			"url": "https://github.com/madhumeya/ankurseth.in"
+			"title": "Contact",
+			"url": "https://ankurseth.in/contact"
 		}
 	],
 
@@ -35,12 +35,16 @@
 			"url": "https://ankurseth.in/about"
 		},
 		{
-			"title": "Terms",
+			"title": "Terms & Conditions",
 			"url": "https://ankurseth.in/terms"
 		},
 		{
-			"title": "Privacy",
+			"title": "Privacy Policy",
 			"url": "https://ankurseth.in/privacy"
+		},
+		{
+			"title": "Source",
+			"url": "https://github.com/madhumeya/ankurseth.in"
 		},
 		{
 			"title": "Contact",
@@ -64,6 +68,10 @@
 		{
 			"title": "LinkedIn",
 			"url": "https://www.linkedin.com/in/madhumeya/"
+		},
+		{
+			"title": "Quora",
+			"url": "https://www.quora.com/profile/Madhumeya"
 		},
 		{
 			"title": "Twitter",
