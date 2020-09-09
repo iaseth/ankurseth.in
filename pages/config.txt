@@ -7,9 +7,14 @@
 about
 about-this-website
 portfolio
+
 contact
+social-media
+pgp
+
 privacy
 terms
+
 sitemap
 404
 
