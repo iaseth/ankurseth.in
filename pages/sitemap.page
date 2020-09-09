@@ -3,6 +3,9 @@ title: Sitemap
 
 ====================
 
-
+ul
+	each x in site.pages
+		li
+			a(href=x.RelativeURL())= x.GetTitle()
 
 
