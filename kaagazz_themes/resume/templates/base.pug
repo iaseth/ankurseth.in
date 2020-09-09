@@ -14,7 +14,7 @@ html(lang="en")
 		else
 			base(href=site.meta.json.app.APP_URL)
 
-		link(rel="stylesheet", href="x/dist/css/resume.css")
+		link(rel="stylesheet", href="x/dist/themes/resume/css/resume.css")
 
 	body
 		header
@@ -25,11 +25,8 @@ html(lang="en")
 							li
 								a(href=node.url).navbar= node.title
 			div.header
-				if page.IsPage() && page.Show("category")
-					- let category = page.Category()
-					if category
-						div.category
-							p Posted in #[a(href=category.RelativeURL()).category= category.Title()]
+				div.image
+					img(src="x/dist/img/user.png")
 				div.title
 					h1= page.Title()
 				if page.IsPage() && page.Show("author")
