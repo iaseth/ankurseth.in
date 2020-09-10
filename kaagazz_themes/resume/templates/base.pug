@@ -41,11 +41,6 @@ html(lang="en")
 				if page.Show("description")
 					div.description
 						p= page.Description()
-				if page.IsPage() && page.Show("tags")
-					div.tags
-						ul
-							each tag in page.Tags()
-								+TagWithCounter(tag)
 		article
 			div
 				block content
