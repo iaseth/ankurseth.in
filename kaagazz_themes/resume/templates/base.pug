@@ -41,6 +41,11 @@ html(lang="en")
 				if page.Show("description")
 					div.description
 						p= page.Description()
+				- let repo = page.Site().meta.json.meta.SITE_REPO
+				if repo
+					- let source = repo + "/blob/master/" + page.inputFilePath
+					div.source
+						a(href=source) View Source
 		article
 			div
 				block content
