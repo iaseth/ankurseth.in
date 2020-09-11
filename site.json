@@ -7,7 +7,7 @@
 
 	"analytics": "analytics.html",
 
-	"themes": ["kz_resume"],
+	"themes": ["kz_resume", "kz_default"],
 
 	"navbar": [
 		{
