@@ -5,8 +5,8 @@ quote: pencil
 ====================
 
 ul
-	each x in page.Site().pages
+	each x in page.getSite().pages
 		li
-			a(href=x.RelativeURL())= x.GetTitle()
+			a(href=x.getRelativeURL())= x.getTitle()
 
 
