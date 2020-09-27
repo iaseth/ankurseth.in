@@ -1,0 +1,20 @@
+{
+	"navbar": [
+		{
+			"title": "Home",
+			"url": "https://ankurseth.in"
+		},
+		{
+			"title": "About",
+			"url": "https://ankurseth.in/about"
+		},
+		{
+			"title": "Portfolio",
+			"url": "https://ankurseth.in/portfolio"
+		},
+		{
+			"title": "Contact",
+			"url": "https://ankurseth.in/contact"
+		}
+	]
+}

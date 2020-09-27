@@ -1,33 +1,4 @@
 {
-	"meta": {
-		"SITE_NAME": "ankurseth.in",
-		"SITE_URL": "https://ankurseth.in",
-		"SITE_REPO": "https://github.com/madhumeya/ankurseth.in"
-	},
-
-	"analytics": "analytics.html",
-
-	"themes": ["resume", "default"],
-
-	"navbar": [
-		{
-			"title": "Home",
-			"url": "https://ankurseth.in"
-		},
-		{
-			"title": "About",
-			"url": "https://ankurseth.in/about"
-		},
-		{
-			"title": "Portfolio",
-			"url": "https://ankurseth.in/portfolio"
-		},
-		{
-			"title": "Contact",
-			"url": "https://ankurseth.in/contact"
-		}
-	],
-
 	"info": [
 		{
 			"title": "Home",

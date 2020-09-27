@@ -1,0 +1,18 @@
+
+SITE_NAME = ankurseth.in
+SITE_URL = https://ankurseth.in
+SITE_REPO = https://github.com/madhumeya/ankurseth.in
+
+analytics = analytics.html
+themes = [resume, default]
+
+
+
+[json]
+navbar = data/json/navbar.json
+footer = data/json/footer.json
+
+[code]
+analytics = data/analytics.html
+
+
