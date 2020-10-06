@@ -1,7 +1,7 @@
 
 SITE_NAME = ankurseth.in
 SITE_URL = https://ankurseth.in
-SITE_REPO = https://github.com/madhumeya/ankurseth.in
+SITE_REPO = https://github.com/iaseth/ankurseth.in
 
 analytics = analytics.html
 themes = [resume, default]
