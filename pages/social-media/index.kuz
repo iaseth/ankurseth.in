@@ -2,8 +2,16 @@
 title: My Social Media
 quote: mrbrain
 
+[json]
+social = social.json
+
 ====================
 
-
+ul
+	each node in kuz.p.jsons.social.nodes
+		li
+			p
+				span #{node.title}(#[a(href=node.url)= "@" + node.name]): 
+				span= node.description
 
 
