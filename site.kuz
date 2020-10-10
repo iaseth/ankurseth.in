@@ -4,7 +4,7 @@ SITE_URL = https://ankurseth.in
 SITE_REPO = https://github.com/iaseth/ankurseth.in
 
 analytics = analytics.html
-themes = [resume, default]
+themes = [resume]
 
 
 
