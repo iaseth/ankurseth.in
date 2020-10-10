@@ -1,35 +1,105 @@
 {
+	"sets": {
+		"four": ["facebook", "instagram", "linkedin", "twitter"],
+		"six": ["facebook", "github", "instagram", "linkedin", "twitter", "youtube"]
+	},
+
 	"nodes": [
 		{
-			"description": "Example description.",
+			"name": "iaseth",
+			"title": "Dribbble",
+			"url": "https://dribbble.com/iaseth",
+			"class": "dribbble"
+		},
+		{
 			"name": "iankurseth",
 			"title": "Facebook",
-			"url": "https://www.facebook.com/iankurseth"
+			"url": "https://www.facebook.com/iankurseth",
+			"class": "facebook"
 		},
 		{
 			"name": "iaseth",
 			"title": "GitHub",
-			"url": "https://github.com/iaseth"
+			"url": "https://github.com/iaseth",
+			"class": "github"
+		},
+		{
+			"name": "iaseth",
+			"title": "GitLab",
+			"url": "https://gitlab.com/iaseth",
+			"class": "gitlab"
+		},
+		{
+			"name": "ankurseth",
+			"title": "Goodreads",
+			"url": "https://www.goodreads.com/ankurseth",
+			"class": "goodreads"
 		},
 		{
 			"name": "iankurseth",
 			"title": "Instagram",
-			"url": "https://www.instagram.com/iankurseth/"
+			"url": "https://www.instagram.com/iankurseth/",
+			"class": "instagram"
+		},
+		{
+			"name": "iaseth",
+			"title": "Kaggle",
+			"url": "https://www.kaggle.com/iaseth",
+			"class": "kaggle"
+		},
+		{
+			"name": "iaseth",
+			"title": "Keybase",
+			"url": "https://keybase.io/iaseth",
+			"class": "keybase"
 		},
 		{
 			"name": "iaseth",
 			"title": "LinkedIn",
-			"url": "https://www.linkedin.com/in/iaseth/"
+			"url": "https://www.linkedin.com/in/iaseth/",
+			"class": "linkedin"
+		},
+		{
+			"name": "iaseth",
+			"title": "NPM",
+			"url": "https://www.npmjs.com/~iaseth",
+			"class": "npm"
+		},
+		{
+			"name": "iankurseth",
+			"title": "Pinterest",
+			"url": "https://in.pinterest.com/iankurseth/",
+			"class": "pinterest"
 		},
 		{
 			"name": "iaseth",
 			"title": "Quora",
-			"url": "https://www.quora.com/profile/iaseth"
+			"url": "https://www.quora.com/profile/iaseth",
+			"class": "quora"
+		},
+		{
+			"name": "iaseth",
+			"title": "Reddit",
+			"url": "https://www.reddit.com/user/iaseth",
+			"class": "reddit"
+		},
+		{
+			"name": "iaseth",
+			"title": "Tumblr",
+			"url": "https://iaseth.tumblr.com",
+			"class": "tumblr"
 		},
 		{
 			"name": "iankurseth",
 			"title": "Twitter",
-			"url": "https://twitter.com/iankurseth"
+			"url": "https://twitter.com/iankurseth",
+			"class": "twitter"
+		},
+		{
+			"name": "iankurseth",
+			"title": "YouTube",
+			"url": "https://youtube.com/iankurseth",
+			"class": "youtube"
 		}
 	]
 }
