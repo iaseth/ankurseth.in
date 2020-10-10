@@ -10,6 +10,7 @@ themes = [resume, default]
 
 [json]
 navbar = data/json/navbar.json
+social = data/json/social.json
 footer = data/json/footer.json
 
 [code]
